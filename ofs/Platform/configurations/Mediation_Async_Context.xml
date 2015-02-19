@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://www.springframework.org/schema/jms"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-3.0.xsd">
+
+	<bean id="jmsQueueServiceTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<!-- <constructor-arg ref="jmsCoreConnectionFactory" /> -->
+		<constructor-arg ref="authenticationConnectionFactory" />
+		<property name="pubSubDomain" value="false" />
+		<property name="destinationResolver" ref="jmsDestinationResolver" />
+	</bean>
+
+	<bean id="jmsTopicServiceTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<constructor-arg ref="authenticationConnectionFactory" />
+		<property name="pubSubDomain" value="true" />
+		<property name="destinationResolver" ref="jmsDestinationResolver" />
+	</bean>
+
+	<bean id="messageListener"
+		class="com.tesco.ofs.platform.mediation.protocoladpter.jms.JMSMessageListener">
+	</bean>
+
+
+	<bean id="jndiTemplate" class="org.springframework.jndi.JndiTemplate">
+		<property name="environment">
+			<props>
+				<prop key="java.naming.factory.initial">org.jboss.naming.remote.client.InitialContextFactory
+				</prop>
+				<prop key="java.naming.provider.url">remote://172.25.58.248:4447</prop>
+				<prop key="java.naming.security.principal">sterling</prop>
+				<prop key="java.naming.security.credentials">sterling@123</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="authenticationConnectionFactory"
+		class="org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter">
+		<property name="targetConnectionFactory" ref="jmsQueueConnectionFactory" />
+		<property name="username" value="sterling" />
+		<property name="password" value="sterling@123" />
+	</bean>
+
+	<bean id="jmsQueueConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate" />
+		<property name="jndiName" value="jms/RemoteConnectionFactory" />
+	</bean>
+
+	<bean id="jmsDestinationResolver"
+		class="org.springframework.jms.support.destination.JndiDestinationResolver">
+		<property name="jndiTemplate" ref="jndiTemplate" />
+		<property name="cache" value="true" />
+	</bean>
+
+
+	<bean id="receiveDestination" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate" />
+		<property name="jndiName" value="jms/queue/CREATE.ORDER.REQUEST.QUEUE" />
+	</bean>
+
+
+	<bean id="createExceptionNotification" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="jndiTemplate" />
+		<property name="jndiName" value="jms/topic/test" />
+	</bean>
+
+
+	<!-- <bean id="jmsMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer"> 
+		<property name="connectionFactory" ref="jmsConnectionFactory" /> <property 
+		name="destination" ref="destinationTopic" /> <property name="messageListener" 
+		ref="messageListener" /> </bean> <bean id="jmsQueueConnectionFactory" class="org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter"> 
+		<property name="targetConnectionFactory" ref="jmsCoreConnectionFactory" /> 
+		<property name="username" value="myusername"/> <property name="password" 
+		value="mypassword"/> </bean> <bean id="jmsConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory"> 
+		<property name="targetConnectionFactory" ref="jmsQueueConnectionFactory" 
+		/> <property name="sessionCacheSize" value="10" /> <property name="exceptionListener" 
+		ref="jmsExceptionListener" /> </bean> <bean id="jmsExceptionListener" class=""> 
+		<property name="cachingConnectionFactory" ref="jmsConnectionFactory" /> </bean> 
+
+
+	<bean id="notificationTopicServiceTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<constructor-arg ref="jmsTibcoConnectionFactory" />
+		<property name="pubSubDomain" value="true" />
+	</bean>
+
+
+	<bean id="jmsTibcoConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+		<constructor-arg value="tcp://localhost:61616" />
+	</bean>
+
+	<bean id="notificationDestinationQueue" class="org.apache.activemq.command.ActiveMQQueue">
+		<constructor-arg value="TestOFS" />
+	</bean>
+	
+	<bean id="notificationDestinationTopic" class="org.apache.activemq.command.ActiveMQTopic">
+		<constructor-arg value="TestOFSTopic" />
+	</bean>-->
+
+</beans>

@@ -1,0 +1,33 @@
+[1mdiff --git a/Platform/src/main/java/com/tesco/ofs/platform/mediation/transformation/OFSPlatformTransformationUtil.java b/Platform/src/main/java/com/tesco/ofs/platform/mediation/transformation/OFSPlatformTransformationUtil.java[m
+[1mindex 0fc06e9..a7e55de 100644[m
+[1m--- a/Platform/src/main/java/com/tesco/ofs/platform/mediation/transformation/OFSPlatformTransformationUtil.java[m
+[1m+++ b/Platform/src/main/java/com/tesco/ofs/platform/mediation/transformation/OFSPlatformTransformationUtil.java[m
+[36m@@ -220,6 +220,7 @@[m [mpublic class OFSPlatformTransformationUtil implements OFSPlatformConstants{[m
+ 		     */  [m
+ 		 public static String objectToXml(Object source, Class type) throws JAXBException [m
+ 		 {[m
+[32m+[m			[32m long startTimeInMS = System.currentTimeMillis();[m
+ 		        String xml;[m
+ 		        StringWriter writer = new StringWriter();[m
+ 		       [m
+[36m@@ -227,6 +228,7 @@[m [mpublic class OFSPlatformTransformationUtil implements OFSPlatformConstants{[m
+ 		        Marshaller marshaller = context.createMarshaller();[m
+ 		        marshaller.marshal(source, writer);[m
+ 		        xml = writer.toString();[m
+[32m+[m		[32m     System.out.println("Time Taken for Object to XML conversion::::" + (System.currentTimeMillis() - startTimeInMS));[m[41m   [m
+ 		        [m
+ 		        return xml;[m
+ 	    }		 [m
+[1mdiff --git a/Platform/src/main/java/com/tesco/ofs/platform/trace/logger/OFSPlatformLogger.java b/Platform/src/main/java/com/tesco/ofs/platform/trace/logger/OFSPlatformLogger.java[m
+[1mindex d027048..064361b 100644[m
+[1m--- a/Platform/src/main/java/com/tesco/ofs/platform/trace/logger/OFSPlatformLogger.java[m
+[1m+++ b/Platform/src/main/java/com/tesco/ofs/platform/trace/logger/OFSPlatformLogger.java[m
+[36m@@ -74,7 +74,7 @@[m [mpublic class OFSPlatformLogger {[m
+ 	[m
+ 	public void info(Marker marker, String msg)[m
+ 	{[m
+[31m-		logger.info(marker, msg);[m
+[32m+[m		[32mlogger.info(marker, msg);[m[41m		[m
+ 	}[m
+ 	[m
+ 	public void warn(String msg)[m

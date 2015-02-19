@@ -1,0 +1,20 @@
+
+server: 
+ #  softNofileLimit: 1000 
+ #  hardNofileLimit: 1000 
+   applicationConnectors: 
+     - type: http 
+       port: 9090
+
+#is api authentication enabled
+enableAuthentication: false
+
+# service token expiry time in seconds
+serviceTokenExpiryTime: 300
+
+# identity service host url
+#identitySvcHost: http://ukdbt71omsbl01v:9070/
+identitySvcHost: https://ukdbt71omsbl01v:9470/
+
+#identitity service token validation resource
+identityResource: validatetoken        

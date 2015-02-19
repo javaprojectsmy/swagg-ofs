@@ -1,0 +1,486 @@
+/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/DOTCOM/servicedev71/bin
+
+10:44:55.061 [main] INFO  c.t.o.o.a.FulfillmentOrderApplication - Starting FulfillmentOrderApplication......
+10:44:55.068 [main] INFO  c.t.o.o.a.FulfillmentOrderApplication - Removing ConstraintViolationExceptionMapper to dropwizard environment
+10:44:55.069 [main] INFO  c.t.o.o.a.FulfillmentOrderApplication - Registering custom OFSConstraintViolationExceptionMapper to dropwizard environment
+10:44:55.074 [main] INFO  io.dropwizard.server.ServerFactory - Starting FulfillmentOrderApplication
+10:44:55.086 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {dw{STOPPED,8<=0<=1024,i=0,q=0},AUTO}
+10:44:55.090 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {org.eclipse.jetty.server.handler.ErrorHandler@73302995,AUTO}
+10:44:55.092 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651,AUTO}
+10:44:55.098 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651,POJO}
+10:44:55.100 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651}
+10:44:55.100 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651]
+10:44:55.100 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.100 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap=null
+10:44:55.100 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={}
+10:44:55.101 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {io.dropwizard.servlets.ThreadNameFilter-600b9d27,AUTO}
+10:44:55.102 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {[/*]/[]==1=>io.dropwizard.servlets.ThreadNameFilter-600b9d27,POJO}
+10:44:55.102 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, io.dropwizard.servlets.ThreadNameFilter-600b9d27=io.dropwizard.servlets.ThreadNameFilter-600b9d27}
+10:44:55.102 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, [/*]/[]==1=>io.dropwizard.servlets.ThreadNameFilter-600b9d27]
+10:44:55.102 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.102 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap=null
+10:44:55.102 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={}
+10:44:55.109 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {io.dropwizard.jetty.BiDiGzipFilter-5ddcc487,AUTO}
+10:44:55.110 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {[/*]/[]==31=>io.dropwizard.jetty.BiDiGzipFilter-5ddcc487,POJO}
+10:44:55.110 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, io.dropwizard.jetty.BiDiGzipFilter-5ddcc487=io.dropwizard.jetty.BiDiGzipFilter-5ddcc487, io.dropwizard.servlets.ThreadNameFilter-600b9d27=io.dropwizard.servlets.ThreadNameFilter-600b9d27}
+10:44:55.110 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, [/*]/[]==1=>io.dropwizard.servlets.ThreadNameFilter-600b9d27, [/*]/[]==31=>io.dropwizard.jetty.BiDiGzipFilter-5ddcc487]
+10:44:55.110 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.110 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap=null
+10:44:55.110 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={}
+10:44:55.120 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true,AUTO}
+10:44:55.120 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@4241e0f4 added {[/*]=>com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3,POJO}
+10:44:55.120 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, io.dropwizard.jetty.BiDiGzipFilter-5ddcc487=io.dropwizard.jetty.BiDiGzipFilter-5ddcc487, io.dropwizard.servlets.ThreadNameFilter-600b9d27=io.dropwizard.servlets.ThreadNameFilter-600b9d27}
+10:44:55.120 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, [/*]/[]==1=>io.dropwizard.servlets.ThreadNameFilter-600b9d27, [/*]/[]==31=>io.dropwizard.jetty.BiDiGzipFilter-5ddcc487]
+10:44:55.120 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.121 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true}
+10:44:55.121 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3=com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true}
+10:44:55.123 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - com.codahale.metrics.jetty9.InstrumentedHandler@74bf1791 added {i.d.j.MutableServletContextHandler@54504ecd{/,null,null},AUTO}
+10:44:55.128 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@5be46f9d added {com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true,AUTO}
+10:44:55.128 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@5be46f9d added {[/*]=>com.codahale.metrics.servlets.AdminServlet-4f3bbf68,POJO}
+10:44:55.128 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={}
+10:44:55.128 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=null
+10:44:55.128 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap=null
+10:44:55.129 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap={/*=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, /tasks/*=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.129 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={com.codahale.metrics.servlets.AdminServlet-4f3bbf68=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, tasks=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.129 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@5be46f9d added {io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517,AUTO}
+10:44:55.130 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.servlet.ServletHandler@5be46f9d added {[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517,POJO}
+10:44:55.130 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517=io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517}
+10:44:55.130 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517]
+10:44:55.130 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.131 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap={/*=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, /tasks/*=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.132 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={com.codahale.metrics.servlets.AdminServlet-4f3bbf68=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, tasks=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.149 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@106cc338{HTTP/1.1} added {HttpConfiguration@7a67e3c6{32768,8192/8192,https://:0,[ForwardedRequestCustomizer@6cc558c6]},POJO}
+10:44:55.160 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - com.codahale.metrics.jetty9.InstrumentedConnectionFactory@1869fbd2 added {HttpConnectionFactory@106cc338{HTTP/1.1},AUTO}
+10:44:55.164 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@8e50104,UNMANAGED}
+10:44:55.164 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{null}{0.0.0.0:0} added {dw{STOPPED,8<=0<=1024,i=0,q=0},AUTO}
+10:44:55.165 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7c8c9a05,AUTO}
+10:44:55.165 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@1046d517,POJO}
+10:44:55.166 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{null}{0.0.0.0:0} added {com.codahale.metrics.jetty9.InstrumentedConnectionFactory@1869fbd2,AUTO}
+10:44:55.170 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@ca30bc1{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@21337f7b,MANAGED}
+10:44:55.171 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {dw-admin{STOPPED,1<=0<=64,i=0,q=0},AUTO}
+10:44:55.171 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@7a362b6b{HTTP/1.1} added {HttpConfiguration@60df60da{32768,8192/8192,https://:0,[ForwardedRequestCustomizer@5a2d131d]},POJO}
+10:44:55.172 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - com.codahale.metrics.jetty9.InstrumentedConnectionFactory@4ae9cfc1 added {HttpConnectionFactory@7a362b6b{HTTP/1.1},AUTO}
+10:44:55.173 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@8e50104,UNMANAGED}
+10:44:55.173 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{null}{0.0.0.0:0} added {dw-admin{STOPPED,1<=0<=64,i=0,q=0},AUTO}
+10:44:55.174 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@14fc1f0,AUTO}
+10:44:55.174 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@632ceb35,POJO}
+10:44:55.175 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{null}{0.0.0.0:0} added {com.codahale.metrics.jetty9.InstrumentedConnectionFactory@4ae9cfc1,AUTO}
+10:44:55.177 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@512baff6{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c93f6e1,MANAGED}
+10:44:55.177 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {application@ca30bc1{HTTP/1.1}{0.0.0.0:8080},AUTO}
+10:44:55.178 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {admin@512baff6{HTTP/1.1}{0.0.0.0:8081},AUTO}
+10:44:55.179 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - io.dropwizard.jetty.RoutingHandler@10a9d961 added {com.codahale.metrics.jetty9.InstrumentedHandler@74bf1791,AUTO}
+10:44:55.179 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - io.dropwizard.jetty.RoutingHandler@10a9d961 added {i.d.j.MutableServletContextHandler@130e116b{/,null,null},AUTO}
+10:44:55.184 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.jetty.Slf4jRequestLog@6ccdb29f
+10:44:55.188 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.jetty.Slf4jRequestLog@6ccdb29f
+10:44:55.188 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6 added {io.dropwizard.jetty.Slf4jRequestLog@6ccdb29f,UNMANAGED}
+10:44:55.188 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {io.dropwizard.jetty.Slf4jRequestLog@6ccdb29f,MANAGED}
+10:44:55.188 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6 added {io.dropwizard.jetty.RoutingHandler@10a9d961,AUTO}
+10:44:55.192 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.handler.StatisticsHandler@9ebe38b added {org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6,AUTO}
+10:44:55.192 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@8e50104 added {org.eclipse.jetty.server.handler.StatisticsHandler@9ebe38b,AUTO}
+10:44:55.193 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@8e50104
+10:44:55.195 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting dw{STOPPED,8<=0<=1024,i=0,q=0}
+10:44:55.205 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED dw{STARTED,8<=8<=1024,i=8,q=0}
+10:44:55.218 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - application@ca30bc1{HTTP/1.1}{0.0.0.0:8080} added {sun.nio.ch.ServerSocketChannelImpl[/0.0.0.0:8080],POJO}
+10:44:55.218 [main] INFO  o.e.jetty.setuid.SetUIDListener - Opened application@ca30bc1{HTTP/1.1}{0.0.0.0:8080}
+10:44:55.219 [main] DEBUG o.e.j.u.component.ContainerLifeCycle - admin@512baff6{HTTP/1.1}{0.0.0.0:8081} added {sun.nio.ch.ServerSocketChannelImpl[/0.0.0.0:8081],POJO}
+10:44:55.219 [main] INFO  o.e.jetty.setuid.SetUIDListener - Opened admin@512baff6{HTTP/1.1}{0.0.0.0:8081}
+10:44:55.219 [main] DEBUG i.d.l.setup.LifecycleEnvironment - managed objects = []
+10:44:55.223 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.0.z-SNAPSHOT
+10:44:55.247 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@8e50104
+10:44:55.247 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.ErrorHandler@73302995
+10:44:55.247 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.ErrorHandler@73302995
+10:44:55.247 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.handler.ErrorHandler@73302995
+10:44:55.248 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting dw-admin{STOPPED,1<=0<=64,i=0,q=0}
+10:44:55.248 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED dw-admin{STARTED,1<=1<=64,i=0,q=0}
+10:44:55.249 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.StatisticsHandler@9ebe38b
+10:44:55.249 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.StatisticsHandler@9ebe38b
+10:44:55.249 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6
+10:44:55.249 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6
+10:44:55.249 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.jetty.RoutingHandler@10a9d961
+10:44:55.249 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting io.dropwizard.jetty.RoutingHandler@10a9d961
+10:44:55.249 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting com.codahale.metrics.jetty9.InstrumentedHandler@74bf1791
+10:44:55.249 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting com.codahale.metrics.jetty9.InstrumentedHandler@74bf1791
+10:44:55.249 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting i.d.j.MutableServletContextHandler@54504ecd{/,null,null}
+10:44:55.261 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting i.d.j.MutableServletContextHandler@54504ecd{/,null,STARTING}
+10:44:55.261 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@4241e0f4
+10:44:55.262 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, io.dropwizard.jetty.BiDiGzipFilter-5ddcc487=io.dropwizard.jetty.BiDiGzipFilter-5ddcc487, io.dropwizard.servlets.ThreadNameFilter-600b9d27=io.dropwizard.servlets.ThreadNameFilter-600b9d27}
+10:44:55.262 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651, [/*]/[]==1=>io.dropwizard.servlets.ThreadNameFilter-600b9d27, [/*]/[]==31=>io.dropwizard.jetty.BiDiGzipFilter-5ddcc487]
+10:44:55.262 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.262 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true}
+10:44:55.262 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3=com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true}
+10:44:55.262 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@4241e0f4
+10:44:55.263 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@4241e0f4
+10:44:55.263 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651
+10:44:55.263 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651
+10:44:55.264 [main] DEBUG o.eclipse.jetty.servlet.FilterHolder - Filter.init io.dropwizard.jersey.filter.AllowedMethodsFilter@539d019
+10:44:55.264 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.servlets.ThreadNameFilter-600b9d27
+10:44:55.265 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.servlets.ThreadNameFilter-600b9d27
+10:44:55.265 [main] DEBUG o.eclipse.jetty.servlet.FilterHolder - Filter.init io.dropwizard.servlets.ThreadNameFilter@39a2bb97
+10:44:55.265 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.jetty.BiDiGzipFilter-5ddcc487
+10:44:55.265 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.jetty.BiDiGzipFilter-5ddcc487
+10:44:55.265 [main] DEBUG o.eclipse.jetty.servlet.FilterHolder - Filter.init io.dropwizard.jetty.BiDiGzipFilter@3ad2e17
+10:44:55.267 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true
+10:44:55.267 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true
+10:44:55.268 [main] DEBUG o.e.jetty.servlet.ServletHolder - Filter.init com.sun.jersey.spi.container.servlet.ServletContainer@1608bcbd
+10:44:55.384 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+10:44:55.507 [main] DEBUG i.d.jersey.DropwizardResourceConfig - resources = [com.tesco.ofs.order.resource.FulfillmentOrderImpl]
+10:44:55.508 [main] DEBUG i.d.jersey.DropwizardResourceConfig - providers = [io.dropwizard.jersey.caching.CacheControlledResourceMethodDispatchAdapter, io.dropwizard.jersey.guava.OptionalResourceMethodDispatchAdapter, io.dropwizard.jersey.guava.OptionalQueryParamInjectableProvider, io.dropwizard.jersey.jackson.JsonProcessingExceptionMapper, com.codahale.metrics.jersey.InstrumentedResourceMethodDispatchAdapter, io.dropwizard.errors.EarlyEofExceptionMapper]
+10:44:55.545 [main] INFO  i.d.jersey.DropwizardResourceConfig - The following paths were found for the configured resources:
+
+    POST    /v1/api/Order (com.tesco.ofs.order.resource.FulfillmentOrderImpl)
+
+10:44:55.809 [main] INFO  o.e.j.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@54504ecd{/,null,AVAILABLE}
+10:44:55.809 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED i.d.j.MutableServletContextHandler@54504ecd{/,null,AVAILABLE}
+10:44:55.832 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED com.codahale.metrics.jetty9.InstrumentedHandler@74bf1791
+10:44:55.832 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting i.d.j.MutableServletContextHandler@130e116b{/,null,null}
+10:44:55.833 [main] INFO  io.dropwizard.setup.AdminEnvironment - tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+10:44:55.834 [main] WARN  io.dropwizard.setup.AdminEnvironment - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+10:44:55.834 [main] DEBUG io.dropwizard.setup.AdminEnvironment - health checks = [deadlocks]
+10:44:55.834 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting i.d.j.MutableServletContextHandler@130e116b{/,null,STARTING}
+10:44:55.834 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@5be46f9d
+10:44:55.835 [main] DEBUG o.e.jetty.servlet.ServletHandler - filterNameMap={io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517=io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517}
+10:44:55.835 [main] DEBUG o.e.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==1=>io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517]
+10:44:55.835 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletFilterMap={}
+10:44:55.835 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletPathMap={/*=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, /tasks/*=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.835 [main] DEBUG o.e.jetty.servlet.ServletHandler - servletNameMap={com.codahale.metrics.servlets.AdminServlet-4f3bbf68=com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true, tasks=tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true}
+10:44:55.835 [main] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@5be46f9d
+10:44:55.835 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@5be46f9d
+10:44:55.836 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true
+10:44:55.836 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true
+10:44:55.836 [main] DEBUG o.e.jetty.servlet.ServletHolder - Filter.init io.dropwizard.servlets.tasks.TaskServlet@5ef0d29e
+10:44:55.836 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true
+10:44:55.836 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED com.codahale.metrics.servlets.AdminServlet-4f3bbf68@181932cf==com.codahale.metrics.servlets.AdminServlet,1,true
+10:44:55.836 [main] DEBUG o.e.jetty.servlet.ServletHolder - Filter.init com.codahale.metrics.servlets.AdminServlet@38f57b3d
+10:44:55.843 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517
+10:44:55.843 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.jersey.filter.AllowedMethodsFilter-3f91b517
+10:44:55.843 [main] DEBUG o.eclipse.jetty.servlet.FilterHolder - Filter.init io.dropwizard.jersey.filter.AllowedMethodsFilter@2cb3d0f7
+10:44:55.844 [main] INFO  o.e.j.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@130e116b{/,null,AVAILABLE}
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED i.d.j.MutableServletContextHandler@130e116b{/,null,AVAILABLE}
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED io.dropwizard.jetty.RoutingHandler@10a9d961
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.handler.RequestLogHandler@61544ae6
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.handler.StatisticsHandler@9ebe38b
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting application@ca30bc1{HTTP/1.1}{0.0.0.0:8080}
+10:44:55.844 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7c8c9a05
+10:44:55.847 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7c8c9a05
+10:44:55.848 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting com.codahale.metrics.jetty9.InstrumentedConnectionFactory@1869fbd2
+10:44:55.848 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting HttpConnectionFactory@106cc338{HTTP/1.1}
+10:44:55.848 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED HttpConnectionFactory@106cc338{HTTP/1.1}
+10:44:55.848 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED com.codahale.metrics.jetty9.InstrumentedConnectionFactory@1869fbd2
+10:44:55.848 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@21337f7b
+10:44:55.849 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@6a66a204 keys=-1 selected=-1
+10:44:55.852 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@6a66a204 keys=0 selected=0
+10:44:55.853 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=8,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@6a66a204 keys=0 selected=0
+10:44:55.853 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-15-selector-0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@6a66a204 keys=0 selected=0
+10:44:55.854 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.854 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@5860f3d7 keys=-1 selected=-1
+10:44:55.854 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@5860f3d7 keys=0 selected=0
+10:44:55.855 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=7,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@5860f3d7 keys=0 selected=0
+10:44:55.855 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@1d7f7be7 keys=-1 selected=-1
+10:44:55.855 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@1d7f7be7 keys=0 selected=0
+10:44:55.856 [dw-14-selector-1] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-14-selector-1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@5860f3d7 keys=0 selected=0
+10:44:55.856 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=6,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@1d7f7be7 keys=0 selected=0
+10:44:55.856 [dw-14-selector-1] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.856 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f3156d keys=-1 selected=-1
+10:44:55.857 [dw-13-selector-2] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-13-selector-2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@1d7f7be7 keys=0 selected=0
+10:44:55.862 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f3156d keys=0 selected=0
+10:44:55.862 [dw-13-selector-2] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.862 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=5,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f3156d keys=0 selected=0
+10:44:55.863 [dw-19-selector-3] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-19-selector-3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f3156d keys=0 selected=0
+10:44:55.863 [dw-19-selector-3] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.863 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@21337f7b
+10:44:55.864 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=4,q=0} dispatched org.eclipse.jetty.server.AbstractConnector$Acceptor@24bdb479
+10:44:55.865 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=3,q=0} dispatched org.eclipse.jetty.server.AbstractConnector$Acceptor@7e3f95fe
+10:44:55.866 [main] INFO  o.e.jetty.server.ServerConnector - Started application@ca30bc1{HTTP/1.1}{0.0.0.0:8080}
+10:44:55.866 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED application@ca30bc1{HTTP/1.1}{0.0.0.0:8080}
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting admin@512baff6{HTTP/1.1}{0.0.0.0:8081}
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@14fc1f0
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@14fc1f0
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting com.codahale.metrics.jetty9.InstrumentedConnectionFactory@4ae9cfc1
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting HttpConnectionFactory@7a362b6b{HTTP/1.1}
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED HttpConnectionFactory@7a362b6b{HTTP/1.1}
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED com.codahale.metrics.jetty9.InstrumentedConnectionFactory@4ae9cfc1
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c93f6e1
+10:44:55.867 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@34625ccd keys=-1 selected=-1
+10:44:55.868 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@34625ccd keys=0 selected=0
+10:44:55.868 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=1<=64,i=1,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@34625ccd keys=0 selected=0
+10:44:55.869 [dw-admin-23-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-admin-23-selector-0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@34625ccd keys=0 selected=0
+10:44:55.869 [dw-admin-23-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.869 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@2c7d121c keys=-1 selected=-1
+10:44:55.870 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@2c7d121c keys=0 selected=0
+10:44:55.870 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=2<=64,i=0,q=0} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@2c7d121c keys=0 selected=0
+10:44:55.870 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@65aa6596 keys=-1 selected=-1
+10:44:55.870 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@65aa6596 keys=0 selected=0
+10:44:55.870 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=2<=64,i=0,q=1} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@65aa6596 keys=0 selected=0
+10:44:55.871 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@67389cb8 keys=-1 selected=-1
+10:44:55.871 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.io.SelectorManager$ManagedSelector@67389cb8 keys=0 selected=0
+10:44:55.871 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=2<=64,i=0,q=2} dispatched org.eclipse.jetty.io.SelectorManager$ManagedSelector@67389cb8 keys=0 selected=0
+10:44:55.871 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c93f6e1
+10:44:55.871 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=2<=64,i=0,q=3} dispatched org.eclipse.jetty.server.AbstractConnector$Acceptor@419a20a6
+10:44:55.872 [main] DEBUG o.e.j.util.thread.QueuedThreadPool - dw-admin{STARTED,1<=2<=64,i=0,q=4} dispatched org.eclipse.jetty.server.AbstractConnector$Acceptor@533377b
+10:44:55.872 [main] INFO  o.e.jetty.server.ServerConnector - Started admin@512baff6{HTTP/1.1}{0.0.0.0:8081}
+10:44:55.872 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED admin@512baff6{HTTP/1.1}{0.0.0.0:8081}
+10:44:55.872 [main] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@8e50104
+10:44:55.873 [dw-admin-25-selector-1] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-admin-25-selector-1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@2c7d121c keys=0 selected=0
+10:44:55.873 [dw-admin-25-selector-1] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.874 [dw-admin-27-selector-2] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-admin-27-selector-2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@65aa6596 keys=0 selected=0
+10:44:55.874 [dw-admin-27-selector-2] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:44:55.875 [dw-admin-28-selector-3] DEBUG org.eclipse.jetty.io.SelectorManager - Starting Thread[dw-admin-28-selector-3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@67389cb8 keys=0 selected=0
+10:44:55.875 [dw-admin-28-selector-3] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:45:33.136 [dw-16-acceptor-0-application@ca30bc1{HTTP/1.1}{0.0.0.0:8080}] DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@704b2c74
+10:45:33.137 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 0/0 selected
+10:45:33.137 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@704b2c74
+10:45:33.170 [dw-15-selector-0] DEBUG o.eclipse.jetty.io.AbstractEndPoint - onOpen SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{null}{io=0,kio=0,kro=0}
+10:45:33.170 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{null}{io=0,kio=0,kro=0} idle timeout check, elapsed: 6 ms, remaining: 29994 ms
+10:45:33.210 [dw-15-selector-0] DEBUG o.e.jetty.server.HttpConnection - New HTTP Connection HttpConnection@2377a05b{IDLE},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}
+10:45:33.211 [dw-15-selector-0] DEBUG o.e.jetty.io.AbstractConnection - onOpen HttpConnection@2377a05b{IDLE},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}
+10:45:33.213 [dw-15-selector-0] DEBUG o.e.jetty.io.AbstractConnection - fillInterested HttpConnection@2377a05b{IDLE},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}
+10:45:33.218 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Local interests updated 0 -> 1 for SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}}{io=1,kio=0,kro=0}
+10:45:33.219 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Created SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}}{io=1,kio=0,kro=0}
+10:45:33.219 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@671fa833
+10:45:33.219 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Key interests updated 0 -> 1
+10:45:33.219 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:45:33.219 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 1/1 selected
+10:45:33.221 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Key interests updated 1 -> 0
+10:45:33.227 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Local interests updated 1 -> 0 for SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}}{io=0,kio=0,kro=1}
+10:45:33.231 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@671fa833
+10:45:33.233 [dw-15-selector-0] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=2,q=0} dispatched AC.ExReadCB@2377a05b
+10:45:33.234 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:45:33.235 [dw-18] DEBUG o.e.jetty.server.HttpConnection - HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0} onFillable org.eclipse.jetty.server.HttpChannelState@73ba0ee6@IDLE,initial
+10:45:33.239 [dw-18] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 4509 SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0}}{io=0,kio=0,kro=1}
+10:45:33.239 [dw-18] DEBUG o.e.jetty.server.HttpConnection - HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of 0} filled 4509
+10:45:33.239 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - START --> SPACE1
+10:45:33.239 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - SPACE1 --> URI
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - URI --> SPACE2
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - SPACE2 --> REQUEST_VERSION
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - REQUEST_VERSION --> HEADER
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+10:45:33.240 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.241 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+10:45:33.241 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.242 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+10:45:33.243 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> CONTENT
+10:45:33.246 [dw-18] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@65a07182{r=1,a=IDLE,uri=-} content java.nio.HeapByteBufferR[pos=470 lim=4509 cap=8192]
+10:45:33.247 [dw-18] DEBUG org.eclipse.jetty.server.HttpInput - org.eclipse.jetty.server.HttpConnection$Input@141f2547{HttpChannelOverHttp@65a07182{r=1,a=IDLE,uri=-},HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=CONTENT,4039 of 4039}} queued java.nio.HeapByteBufferR[pos=470 lim=4509 cap=8192]
+10:45:33.247 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - CONTENT --> END
+10:45:33.247 [dw-18] DEBUG o.e.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$Input@141f2547{HttpChannelOverHttp@65a07182{r=1,a=IDLE,uri=-},HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=END,4039 of 4039}} shutdown
+10:45:33.248 [dw-18] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@65a07182{r=1,a=IDLE,uri=-} handle enter
+10:45:33.249 [dw-18 - /v1/api/Order] DEBUG org.eclipse.jetty.server.Server - REQUEST /v1/api/Order on HttpChannelOverHttp@65a07182{r=1,a=DISPATCHED,uri=/v1/api/Order}
+10:45:33.250 [dw-18 - /v1/api/Order] DEBUG o.e.j.server.handler.ContextHandler - scope null||/v1/api/Order @ i.d.j.MutableServletContextHandler@54504ecd{/,null,AVAILABLE}
+10:45:33.251 [dw-18 - /v1/api/Order] DEBUG o.e.j.server.handler.ContextHandler - context=||/v1/api/Order @ i.d.j.MutableServletContextHandler@54504ecd{/,null,AVAILABLE}
+10:45:33.251 [dw-18 - /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - servlet ||/v1/api/Order -> com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true
+10:45:33.253 [dw-18 - /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - chain=io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651->io.dropwizard.servlets.ThreadNameFilter-600b9d27->io.dropwizard.jetty.BiDiGzipFilter-5ddcc487->com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true
+10:45:33.254 [dw-18 - /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - call filter io.dropwizard.jersey.filter.AllowedMethodsFilter-4b213651
+10:45:33.255 [dw-18 - /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - call filter io.dropwizard.servlets.ThreadNameFilter-600b9d27
+10:45:33.255 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - call filter io.dropwizard.jetty.BiDiGzipFilter-5ddcc487
+10:45:33.256 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.e.jetty.servlet.ServletHandler - call servlet com.sun.jersey.spi.container.servlet.ServletContainer-6c4980d3@33eaaa63==com.sun.jersey.spi.container.servlet.ServletContainer,1,true
+10:45:34.149 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@750650ec, groups=[Ljava.lang.Class;@494e38af}, constraintType=GENERIC}.
+10:45:34.150 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@ba9705d, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@1d95939a, max=2147483647}, constraintType=GENERIC}.
+10:45:34.152 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@13330050, groups=[Ljava.lang.Class;@50accf53}, constraintType=GENERIC}.
+10:45:34.152 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@3523c6fe, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@4d26a39c, max=2147483647}, constraintType=GENERIC}.
+10:45:34.153 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@70fc823f, groups=[Ljava.lang.Class;@5b43bee8}, constraintType=GENERIC}.
+10:45:34.154 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@2381cc5f, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@5e4508c, max=2147483647}, constraintType=GENERIC}.
+10:45:34.205 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@626ce906, groups=[Ljava.lang.Class;@77c89e75}, constraintType=GENERIC}.
+10:45:34.206 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@52719d63, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@57507af2, max=2147483647}, constraintType=GENERIC}.
+10:45:34.209 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@4cc87676, groups=[Ljava.lang.Class;@6e679c3a}, constraintType=GENERIC}.
+10:45:34.210 [dw-18 - /v1/api/Order - POST /v1/api/Order] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@7644df7d, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@3585532a, max=2147483647}, constraintType=GENERIC}.
+10:45:34.241 [dw-18 - /v1/api/Order] DEBUG org.eclipse.jetty.server.Server - RESPONSE /v1/api/Order  200 handled=true
+10:45:34.244 [dw-18] DEBUG o.e.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@19e9278c generate: NEED_HEADER (null,[p=0,l=0,c=0,r=0],true)@START
+10:45:34.245 [dw-18] DEBUG o.e.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@19e9278c generate: FLUSH ([p=0,l=107,c=8192,r=107],[p=0,l=0,c=0,r=0],true)@COMPLETING
+10:45:34.245 [dw-18] DEBUG org.eclipse.jetty.io.WriteFlusher - write: WriteFlusher@2af4b6fb{IDLE} [HeapByteBuffer@5c2565d9[p=0,l=107,c=8192,r=107]={<<<HTTP/1.1 200 OK||...t-Length: 0||||>>>�����������������...���������������}]
+10:45:34.246 [dw-18] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@2af4b6fb{WRITING}:IDLE-->WRITING
+10:45:34.246 [dw-18] DEBUG org.eclipse.jetty.io.ChannelEndPoint - flushed 107 SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{WRITING},it=30000}{HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=COMPLETING},p=HttpParser{s=END,4039 of 4039}}{io=0,kio=0,kro=1}
+10:45:34.246 [dw-18] DEBUG org.eclipse.jetty.io.WriteFlusher - flushed true
+10:45:34.247 [dw-18] DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@2af4b6fb{IDLE}:WRITING-->IDLE
+10:45:34.247 [dw-18] DEBUG o.e.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$CommitCallback@19e9278c generate: DONE ([p=107,l=107,c=8192,r=0],[p=0,l=0,c=0,r=0],true)@END
+10:45:34.247 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - reset HttpParser{s=END,4039 of 4039}
+10:45:34.247 [dw-18] DEBUG org.eclipse.jetty.http.HttpParser - END --> START
+10:45:34.250 [dw-18] DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@65a07182{r=1,a=IDLE,uri=-} handle exit, result COMPLETE
+10:45:34.251 [dw-18] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 0 SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1}
+10:45:34.251 [dw-18] DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 0 SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1}
+10:45:34.252 [dw-18] DEBUG o.e.jetty.server.HttpConnection - HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1} filled 0
+10:45:34.252 [dw-18] DEBUG o.e.jetty.io.AbstractConnection - fillInterested HttpConnection@2377a05b{FILLING},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}
+10:45:34.252 [dw-18] DEBUG o.e.jetty.io.SelectChannelEndPoint - Local interests updated 0 -> 1 for SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=1,kio=0,kro=1}
+10:45:34.253 [dw-18] DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@671fa833
+10:45:34.253 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 0/1 selected
+10:45:34.253 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@671fa833
+10:45:34.253 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Key interests updated 0 -> 1
+10:45:34.253 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+172.28.134.188 -  -  [18/Dec/2014:10:45:33 +0000] "POST /v1/api/Order HTTP/1.1" 200 - "http://ukdbt71omsap01v:8080/v1/api/Order" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0" 991
+10:45:35.581 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:45:35.582 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:45:35.582 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:45:35.590 [Thread-22] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@48930314: startup date [Thu Dec 18 10:45:35 GMT 2014]; root of context hierarchy
+10:45:35.632 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:45:35.632 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:45:35.632 [Thread-22] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:45:35.645 [Thread-22] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Mediation_Async_Context.xml]
+10:45:35.680 [Thread-22] DEBUG o.s.b.f.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+10:45:35.733 [Thread-22] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+10:45:35.737 [Thread-22] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/integration/spring-integration-2.1.xsd=org/springframework/integration/config/xml/spring-integration-2.1.xsd, http://www.springframework.org/schema/integration/spring-integration-1.0.xsd=org/springframework/integration/config/xml/spring-integration-1.0.xsd, http://www.springframework.org/schema/integration/spring-integration.xsd=org/springframework/integration/config/xml/spring-integration-4.0.xsd, http://www.springframework.org/schema/integration/spring-integration-2.0.xsd=org/springframework/integration/config/xml/spring-integration-2.0.xsd, http://www.springframework.org/schema/integration/spring-integration-2.2.xsd=org/springframework/integration/config/xml/spring-integration-2.2.xsd, http://www.springframework.org/schema/integration/spring-integration-3.0.xsd=org/springframework/integration/config/xml/spring-integration-3.0.xsd, http://www.springframework.org/schema/integration/spring-integration-4.0.xsd=org/springframework/integration/config/xml/spring-integration-4.0.xsd}
+10:45:35.785 [Thread-22] WARN  o.s.b.f.xml.XmlBeanDefinitionReader - Ignored XML validation warning
+org.xml.sax.SAXParseException: schema_reference.4: Failed to read schema document 'http://www.springframework.org/schema/beans/spring-beans-3.0.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(ErrorHandlerWrapper.java:99) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:433) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:347) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(XSDHandler.java:4166) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaWarning(XSDHandler.java:4157) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument1(XSDHandler.java:2490) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2187) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:573) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:616) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2453) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1773) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) [na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) [na:1.8.0_20]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:542) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at com.tesco.ofs.platform.mediation.protocoladpter.jms.SyncJmsClient.<init>(SyncJmsClient.java:14) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at com.tesco.ofs.order.resource.FulfillmentOrderImpl$1.run(FulfillmentOrderImpl.java:29) [FulfillmentOrder-0.0.1-SNAPSHOT-full.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_20]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_20]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_20]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_20]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_20]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_20]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_20]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_20]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_20]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_20]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_20]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_20]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1511) ~[na:1.8.0_20]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:640) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:582) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:685) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(SchemaDOMParser.java:530) ~[na:1.8.0_20]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2175) [na:1.8.0_20]
+	... 36 common frames omitted
+Exception in thread "Thread-22" org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 7 in XML document from class path resource [Mediation_Async_Context.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 78; cvc-elt.1: Cannot find the declaration of element 'beans'.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.tesco.ofs.platform.mediation.protocoladpter.jms.SyncJmsClient.<init>(SyncJmsClient.java:14)
+	at com.tesco.ofs.order.resource.FulfillmentOrderImpl$1.run(FulfillmentOrderImpl.java:29)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 78; cvc-elt.1: Cannot find the declaration of element 'beans'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 16 more
+10:46:03.171 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=1,kio=1,kro=1} idle timeout check, elapsed: 28918 ms, remaining: 1082 ms
+10:46:04.259 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=1,kio=1,kro=1} idle timeout check, elapsed: 30006 ms, remaining: -6 ms
+10:46:04.259 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{true,AC.ExReadCB@2377a05b},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=1,kio=1,kro=1} idle timeout expired
+10:46:04.261 [Scheduler-2089589253] DEBUG o.e.j.util.thread.QueuedThreadPool - dw{STARTED,8<=8<=1024,i=2,q=0} dispatched org.eclipse.jetty.io.AbstractConnection$ReadCallback$1@76d2af77
+10:46:04.261 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.WriteFlusher - failed: WriteFlusher@2af4b6fb{IDLE} java.util.concurrent.TimeoutException: Idle timeout expired: 30006/30000 ms
+10:46:04.262 [dw-18] DEBUG o.e.jetty.io.AbstractConnection - HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1} onFillInterestedFailed java.util.concurrent.TimeoutException: Idle timeout expired: 30006/30000 ms
+10:46:04.263 [dw-18] DEBUG org.eclipse.jetty.io.ChannelEndPoint - oshut SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=false,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=1,kio=1,kro=1}
+10:46:04.265 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 1/1 selected
+10:46:04.265 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Key interests updated 1 -> 0
+10:46:04.266 [dw-15-selector-0] DEBUG o.e.jetty.io.SelectChannelEndPoint - Local interests updated 1 -> 0 for SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1}
+10:46:04.266 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@671fa833
+10:46:04.266 [dw-15-selector-0] DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+10:46:34.290 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1} idle timeout check, elapsed: 30027 ms, remaining: -27 ms
+10:46:34.291 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=true,is=false,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1} idle timeout expired
+10:46:34.291 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.WriteFlusher - failed: WriteFlusher@2af4b6fb{IDLE} java.util.concurrent.TimeoutException: Idle timeout expired: 30027/30000 ms
+10:46:34.292 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.ChannelEndPoint - close SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=false,is=false,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=0,kro=1}
+10:46:34.293 [Scheduler-2089589253] DEBUG org.eclipse.jetty.io.SelectorManager - Destroyed SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=false,is=true,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=-1,kro=-1}
+10:46:34.293 [Scheduler-2089589253] DEBUG o.e.jetty.io.AbstractConnection - onClose HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}
+10:46:34.294 [Scheduler-2089589253] DEBUG o.eclipse.jetty.io.AbstractEndPoint - onClose SelectChannelEndPoint@7d2d50bd{/172.28.134.188:54670<r-l>/172.25.58.27:8080,o=false,is=true,os=true,fi=FillInterest@3a6b6463{false,null},wf=WriteFlusher@2af4b6fb{IDLE},it=30000}{HttpConnection@2377a05b{INTERESTED},g=HttpGenerator{s=START},p=HttpParser{s=START,0 of -1}}{io=0,kio=-1,kro=-1}
